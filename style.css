@@ -1,0 +1,91 @@
+*{
+    font-family: Comic Sans MS;
+}
+body{
+    margin: 0;
+    text-align: center;
+}
+.FFEDED{
+    background-color: #FFEDED;
+    width: 600px;  
+    margin: auto;
+}
+
+.lifePlan{
+    width: 300px;  
+    margin: auto;
+}
+
+.lifePlan ul li{
+    text-align: left;
+}
+
+.black{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}
+
+h1{
+    margin-top: 0;
+}
+h1, h3{
+    text-align: center;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #B3541E;
+    border-width: 10px;
+    width: 4%;
+}
+label{
+    font-weight: bold;
+    margin: 5px;
+}
+input[type=text],input[type=email]{
+    font-size: 15px;
+    width: 300px;
+    padding: 8px;
+    margin: 5px;
+}
+textarea{
+    font-size: 14px;
+    width: 300px;
+    padding: 8px;
+    margin: 5px;
+}
+a:hover{
+    font-weight: bold;
+    color: #7c451e;
+    text-decoration: none;
+}
+a{
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid #7c451e;
+    border-radius: 10px;
+    width: 80px;
+    color: #7c451e;
+    margin: 10px;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;  
+}
+
+.button{
+    font-size: 12px;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    background-color: #7c451e;
+    color: #fcf4ec;
+    margin: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+.top{
+    position: fixed;
+    right:20px;
+    bottom: 20px;
+}
